@@ -19,46 +19,67 @@ class LastB extends StatelessWidget {
             SizedBox(
               height: 50,
             ),
-            Container(
-              width: 100,
-              height: 100,
-              child: Image.network(
-                img,
-                fit: BoxFit.cover,
+            Padding(
+              padding: const EdgeInsets.only(right: 150),
+              child: Container(
+                width: 100,
+                height: 100,
+                child: Image.network(
+                  img,
+                  fit: BoxFit.cover,
+                ),
               ),
             ),
-            Container(
-              width: 100,
-              height: 100,
-              child: Image.network(
-                img,
-                fit: BoxFit.cover,
-              ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Container(
+                  width: 100,
+                  height: 100,
+                  child: Image.network(
+                    img,
+                    fit: BoxFit.cover,
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(left: 50),
+                  child: Container(
+                    width: 100,
+                    height: 100,
+                    child: Image.network(
+                      img,
+                      fit: BoxFit.cover,
+                    ),
+                  ),
+                ),
+              ],
             ),
-            Container(
-              width: 100,
-              height: 100,
-              child: Image.network(
-                img,
-                fit: BoxFit.cover,
-              ),
-            ),
-            Container(
-              width: 100,
-              height: 100,
-              child: Image.network(
-                img,
-                fit: BoxFit.cover,
-              ),
-            ),
-            Container(
-              width: 100,
-              height: 100,
-              child: Image.network(
-                img,
-                fit: BoxFit.cover,
-              ),
-            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Container(
+                  width: 100,
+                  height: 100,
+                  child: Image.network(
+                    img,
+                    fit: BoxFit.cover,
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(left: 50),
+                  child: Container(
+                    width: 100,
+                    height: 100,
+                    child: Image.network(
+                      img,
+                      fit: BoxFit.cover,
+                    ),
+                  ),
+                ),
+              ],
+            )
           ],
         ),
       ),
